@@ -1,0 +1,7 @@
+{
+  "name": "teams-weather-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "t-tajiri <swallow.ava@gmail.com>",
+  "license": "MIT"
+}
