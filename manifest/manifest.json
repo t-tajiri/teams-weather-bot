@@ -1,3 +1,23 @@
 {
-    // TODO
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "bots": [
+    {
+      "botId": "%MICROSOFT-APP-ID-REGISTERED-WITH-BOT-FRAMEWORK%",
+      "needsChannelSelector": false,
+      "isNotificationOnly": false,
+      "scopes": [ "team", "personal", "groupchat" ],
+      "supportsFiles": true,
+      "commandLists": [
+        {
+          "scopes": [ "team", "groupchat" ],
+          "commands": [
+            {
+              "title": "hello for team",
+              "description": "sample command for team"
+            }
+          ]
+        }
+      ]
+    }
+    ]
 }
